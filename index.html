@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aduio Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="music-player-container">
+        <div class="title-music-container">
+            <h4 class="song-title" id="TitleSong">AMORFORADA</h4>
+            <span class="song-author" id="NameAuthor">Bad Bunny<span />
+        </div>
+        <div class="controls-music-container">
+            <div class="progress-bar-container">
+                <div class="progress-bar">
+                    <span class="progress" id="Pogress"></span>
+                </div>
+            </div>
+            <div class="timer-container">
+                <span class="time-left" id="CurrentSongTime"></span>
+                <span class="time-right" id="SongLength"></span>
+            </div>
+        </div>
+        <audio controls preload="metadata" src="./audio/AMORFORADA.mp3">
+            Your browser does not support the audio tag
+        </audio>
+        <div class="controler-music-main-container">
+            <i class="fa-solid fa-backward" id="Backward"></i>
+            <i class="fa-solid fa-play" id="Play"></i>
+            <i class="fa-solid fa-forward" id="Forward"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

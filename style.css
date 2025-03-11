@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+audio {
+    display: none;
+}
+
+html {
+    height: 100%;
+}
+
+/* Estilos para pantallas más pequeñas (móviles) */
+@media (max-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+/* Estilos para pantallas medianas (tabletas) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+/* Estilos para pantallas grandes (escritorios) */
+@media (min-width: 1025px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    height: 100%;
+    margin: 0; 
+    display: flex;
+    align-items: center;
+}
+
+.music-player-container {
+    width: 100%;
+    max-width: 800px;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, #161616, #000000 20%);
+    font-family: "Raleway", sans-serif;
+    color: white;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 1.2rem 2rem;
+}
+
+.music-player-container > * {
+    width: 82.8%;
+}
+.title-music-container {
+    width: 80%;
+
+}
+.song-title {
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.song-author {
+    font-weight: 300;
+    color: #999999;
+    font-size: 1rem;
+    display: block;
+}
+
+.controls-music-container {
+    margin-top: .4rem;
+    margin-bottom: .6rem;
+}
+
+.progress-bar {
+    height: 3px;
+    background-color: #999999;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.progress {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.timer-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    color: #999999;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.controler-music-main-container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    color: #999999;
+    font-size: 1.625rem;
+}
+
+#Play {
+    cursor: pointer;
+}
+
+#Forward {
+    cursor: pointer;
+}
+
+#Backward {
+    cursor: pointer;
+}
+
+
+
