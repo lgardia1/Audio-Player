@@ -20,5 +20,5 @@
 ## 🎮 Cómo usar  
 1. Carga tus canciones en el reproductor.  
 2. Usa los controles para reproducir, pausar o cambiar de pista.  
-3. Ajusta el volumen o selecciona un punto en la barra de progreso.  
+3. Selecciona un punto en la barra de progreso.  
 
